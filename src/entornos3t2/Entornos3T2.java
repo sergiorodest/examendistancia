@@ -7,10 +7,19 @@ package entornos3t2;
 /**
  * Clase principal, sólo sirve para crear objetos y probar
  *
- * @author PACO
+ * @author Sergio Rodriguez
+ * 
+ * @version revision inicial examen
  */
 public class Entornos3T2 {
-
+/**
+ * 
+ */
+    /**
+     * estos atributos indican el numero de ramas del git
+     * la rama principal sobre la que se trabaja en git suele ser main o master
+     * y la ramaevolucionada es la rama con mas commits de todas
+     */
     private int numRamas;
     private String ramaPrincipal;
     private String ramaEvolucionada;
@@ -18,6 +27,13 @@ public class Entornos3T2 {
     
     /**
      * @param args the command line arguments
+     * @see aqui se estan utilizando metodos de la clase Pokemon porque este es el programa principal
+     * y se van a usar muchos metodos de la clase pokemon
+     * lo primero que estamos haciendo es coger pokeballs con juego1.cogerpokeball
+     * lo segundo que hace es crear un array de pokemons con String[] listadoPakemon para indicar los pokemons a inetntar capturar
+     * luego lo tercero intento ganar es el mensaje que le tiene que devolver si introduze la clave para avanzar bien o mal
+     * 
+     * lo ultimo es un metodo void para indicar cuando te quedaste sin pokeballs para capturara pokemons
      */
     public static void main(String[] args) {
         Pakemon juego1 = new Pakemon("");
